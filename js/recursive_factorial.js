@@ -7,14 +7,14 @@ function recursive_factorial(number) {
     return "Invalid input.";
   }
 
-  if( isNaN(parsedNumber)) {
+  if(isNaN(parsedNumber)) {
 
     return "Invalid input.";
   }
 
   function recurse(number) {
 
-    if(number <1) {
+    if(number < 1) {
 
       return 1;
     }
